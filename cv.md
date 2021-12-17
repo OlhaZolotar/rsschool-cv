@@ -19,5 +19,11 @@ I’m always looking for an opportunity to do better.***
 * VS Code
 * Adobe Photoshop, Figma 
 
+### Courses:
+
+* HTML and CSS on [Code Basics](https://ru.code-basics.com/)
+* JavaScript Manual on [learnjavascript.ru](https://learnjavascript.ru) (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
 ### English 
 Upper-intermediate 
