@@ -2,9 +2,10 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
+  color: #454545;
 }
 a {
   text-decoration: none;
@@ -42,5 +43,95 @@ a {
   transition: all 0.2s;
 }
 .menu-item:hover {
+  color: red;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.photo {
+  border-radius: 50px;
+}
+.prifile-name {
+  margin: 30px 100px;
+}
+h1 {
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.profile-subtitle {
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.profile-description {
+  display: block;
+  justify-content: space-between;
+}
+.profile-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+.profile-about-me {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.column {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.column-all {
+  padding-bottom: 30px;
+  border-radius: 50px;
+}
+.column-contacts {
+  position: relative;
+  background-color: #fbeddf;
+}
+.column-skills {
+  background-color: #f8f3ee;
+}
+.column-courses {
+  background-color: #fbebea;
+}
+.column-english {
+  background-color: #f8f3ee;
+}
+.profile-title-item {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px;
+  padding-top: 20px;
+}
+.item {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  margin: 20px;
+  padding-top: 20px;
+}
+.footer {
+  background-color: #fbeddf;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.footer-content-left {
+  display: flex;
+}
+.footer-copy {
+  margin-right: 20px;
+}
+.footer-git:hover {
   color: red;
 }
