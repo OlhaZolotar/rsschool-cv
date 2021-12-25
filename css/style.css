@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454545;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  background-color: #fbebea;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-items {
+  padding-right: 50px;
+}
+
+.menu-item {
+  color: #454545;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+.menu-item:hover {
+  color: red;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.photo {
+  border-radius: 50px;
+}
+.prifile-name {
+  margin: 30px 100px;
+}
+h1 {
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.profile-subtitle {
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.profile-description {
+  display: block;
+  justify-content: space-between;
+}
+.profile-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+.profile-about-me {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.column {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.column-all {
+  padding-bottom: 30px;
+  border-radius: 50px;
+}
+.column-contacts {
+  position: relative;
+  background-color: #fbeddf;
+}
+.column-tech-skills {
+  background-color: #f8f3ee;
+}
+.column-soft-skills {
+  background-color: #fbeddf;
+}
+.column-courses {
+  background-color: #fbebea;
+}
+.column-english {
+  background-color: #f8f3ee;
+}
+.profile-title-item {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px;
+  padding-top: 20px;
+}
+.item {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  margin: 50px;
+  line-height: 50px;
+}
+.item-link {
+  transition: 0.3s;
+}
+
+.item-link:hover {
+  color: red;
+}
+
+.footer {
+  background-color: #fbeddf;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.footer-content-left {
+  display: flex;
+}
+.footer-copy {
+  margin-right: 20px;
+}
+.footer-git:hover {
+  color: red;
+}
+html {
+  scroll-behavior: smooth;
+}
+.accent {
+  font-weight: 600;
+}
