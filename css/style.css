@@ -1,11 +1,17 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #454545;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
 a {
   text-decoration: none;
@@ -94,8 +100,11 @@ h1 {
   position: relative;
   background-color: #fbeddf;
 }
-.column-skills {
+.column-tech-skills {
   background-color: #f8f3ee;
+}
+.column-soft-skills {
+  background-color: #fbeddf;
 }
 .column-courses {
   background-color: #fbebea;
@@ -114,9 +123,17 @@ h1 {
   font-size: 16px;
   font-weight: 300;
   text-align: justify;
-  margin: 20px;
-  padding-top: 20px;
+  margin: 50px;
+  line-height: 50px;
 }
+.item-link {
+  transition: 0.3s;
+}
+
+.item-link:hover {
+  color: red;
+}
+
 .footer {
   background-color: #fbeddf;
 }
@@ -134,4 +151,10 @@ h1 {
 }
 .footer-git:hover {
   color: red;
+}
+html {
+  scroll-behavior: smooth;
+}
+.accent {
+  font-weight: 600;
 }

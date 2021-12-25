@@ -13,29 +13,31 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="./images/favicon.ico" />
   </head>
 
   <body>
     <header id="header" class="header">
-      <div class="container">
-        <div class="header-top">
-          <div class="header-logo">
-            <a href="#">
-              <img src="images/logo.png" alt="logo" />
-            </a>
-          </div>
-          <nav class="menu">
-            <ul class="menu-list">
-              <li class="menu-items"><a href="#" class="menu-item">Contacts</a></li>
-              <li class="menu-items"><a href="#" class="menu-item">Skills</a></li>
-              <li class="menu-items"><a href="#" class="menu-item">Courses</a></li>
-              <li class="menu-items"><a href="#" class="menu-item">English</a></li>
-            </ul>
-          </nav>
+      <div class="container header-top">
+        <div class="header-logo">
+          <a href="#">
+            <img src="images/logo.png" alt="logo" />
+          </a>
         </div>
+
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-items"><a href="#contacts" class="menu-item">Contacts</a></li>
+            <li class="menu-items"><a href="#techSkills" class="menu-item">Tech Skills</a></li>
+            <li class="menu-items"><a href="#softSkills" class="menu-item">Soft Skills</a></li>
+            <li class="menu-items"><a href="#courses" class="menu-item">Courses</a></li>
+            <li class="menu-items"><a href="#languages" class="menu-item">Languages</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
     <!-- /.header -->
+
     <main class="main">
       <div class="container">
         <section class="profile">
@@ -62,18 +64,21 @@
 
         <section>
           <ul class="column">
-            <li class="column-contacts column-all">
+            <li class="column-contacts column-all" id="contacts">
               <h2 class="profile-title-item">Contacts</h2>
               <ul class="item">
-                <li>Location: Kiyv, Ukraine</li>
-                <li>Telegram: @OlhaZolotar</li>
-                <li>E-mail: olchere@gmail.com</li>
-                <li><a href="https://www.linkedin.com/in/olhazolotar/">linkedin</a></li>
-                <li><a href="https://github.com/olhazolotar">GitHub</a></li>
+                <li><span class="accent">Location:</span> Kiyv, Ukraine</li>
+                <li><span class="accent">Telegram:</span> @OlhaZolotar</li>
+                <li><span class="accent">E-mail:</span> olchere@gmail.com</li>
+                <li class="item-link">
+                  <a href="https://www.linkedin.com/in/olhazolotar/">linkedin</a>
+                </li>
+                <li class="item-link"><a href="https://github.com/olhazolotar">GitHub</a></li>
               </ul>
             </li>
-            <li class="column-skills column-all">
-              <h2 class="profile-title-item">Skills</h2>
+
+            <li class="column-tech-skills column-all" id="techSkills">
+              <h2 class="profile-title-item">Tech Skills</h2>
               <ul class="item">
                 <li>HTML5, CSS3</li>
                 <li>JavaScript Basics</li>
@@ -83,22 +88,32 @@
               </ul>
             </li>
 
-            <li class="column-courses column-all">
-              <h2 class="profile-title-item">Courses</h2>
+            <li class="column-soft-skills column-all" id="softSkills">
+              <h2 class="profile-title-item">Soft Skills</h2>
               <ul class="item">
-                <li>HTML and CSS on <a href="https://ru.code-basics.com/">Code Basics</a></li>
-                <li>
-                  JavaScript Manual on
-                  <a href="https://learnjavascript.ru">learnjavascript.ru</a>(in progress)
-                </li>
-                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript Basics</li>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+                <li>Adobe Photoshop, Figma</li>
               </ul>
             </li>
 
-            <li class="column-english column-all">
-              <h2 class="profile-title-item">English</h2>
+            <li class="column-courses column-all" id="courses">
+              <h2 class="profile-title-item">Courses</h2>
               <ul class="item">
-                <li>Upper-intermediate</li>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                <li>IT School GoIT (in progress)</li>
+              </ul>
+            </li>
+
+            <li class="column-english column-all" id="languages">
+              <h2 class="profile-title-item">Languages</h2>
+              <ul class="item">
+                <li><span class="accent">English</span> - Upper-Intermediate</li>
+                <li><span class="accent">Ukrainian</span> - Native</li>
+                <li><span class="accent">Russian</span> - Native</li>
+                <li><span class="accent">Spanish</span> - Elementary</li>
               </ul>
             </li>
           </ul>
@@ -108,17 +123,14 @@
     <!-- /.main -->
 
     <footer id="footer" class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-content-left">
-            <p class="footer-copy">&copy; 2021</p>
-            <a href="https://github.com/olhazolotar" class="footer-git">olhazolotar</a>
-          </div>
-
-          <a href="https://rs.school/js/">
-            <img src="./images/rss.svg" alt="rss logo" width="100px" />
-          </a>
+      <div class="container footer-content">
+        <div class="footer-content-left">
+          <p class="footer-copy">&copy; 2021</p>
+          <a href="https://github.com/olhazolotar" class="footer-git">olhazolotar</a>
         </div>
+        <a href="https://rs.school/js/">
+          <img src="./images/rss.svg" alt="rss-logo" width="100px" />
+        </a>
       </div>
     </footer>
     <!-- /.footer -->
