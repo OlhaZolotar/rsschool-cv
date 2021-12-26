@@ -33,7 +33,6 @@ a {
   height: 100px;
   align-items: center;
 }
-
 .menu-list {
   display: flex;
 }
@@ -89,28 +88,36 @@ h1 {
   font-weight: 400;
 }
 .column {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .column-all {
+  width: 380px;
   padding-bottom: 30px;
   border-radius: 50px;
+  margin: 5px;
+  text-align: right;
 }
 .column-contacts {
   position: relative;
-  background-color: #fbeddf;
+  background-color: #f8f3ee;
 }
 .column-tech-skills {
-  background-color: #f8f3ee;
-}
-.column-soft-skills {
   background-color: #fbeddf;
 }
-.column-courses {
+.column-soft-skills {
   background-color: #fbebea;
 }
-.column-english {
+.column-courses {
+  background-color: #fbeddf;
+}
+.column-projects {
   background-color: #f8f3ee;
+}
+.column-english {
+  background-color: #fbeddf;
 }
 .profile-title-item {
   font-size: 25px;
@@ -122,10 +129,11 @@ h1 {
 .item {
   font-size: 16px;
   font-weight: 300;
-  text-align: justify;
+  text-align: left;
   margin: 50px;
   line-height: 50px;
 }
+
 .item-link {
   transition: 0.3s;
 }
@@ -133,7 +141,9 @@ h1 {
 .item-link:hover {
   color: red;
 }
-
+.item-point {
+  line-height: 1.5;
+}
 .footer {
   background-color: #fbeddf;
 }
